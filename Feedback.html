@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <title>Feedback</title>
+    <style>
+        body {
+            background: url(Feedback.avif);
+            background-size: cover;
+        }
+        
+        h1 b {
+            color: blue;
+            font-size: 60px;
+        }
+        
+        h1 {
+            color: red;
+            font-size: 40px;
+        }
+        
+        span {
+            color: black;
+            font-size: 40px;
+        }
+        
+        h2 {
+            color: white;
+            text-shadow: 2px 3px 5px rgb(28, 24, 24);
+            margin-left: 15%;
+            font-size: 40px;
+        }
+        
+        h2 {
+            margin-left: 20%;
+            font-size: 40px;
+        }
+        
+        form ul {
+            float: right;
+            color: black;
+            text-shadow: 2px 2px 5px white;
+            margin-right: 5%;
+            margin-top: -25%;
+            backdrop-filter: blur(2px);
+            width: 25%;
+            height: 70%;
+            margin-left: 70%;
+            border: 2px solid black;
+            border-radius: 20px;
+            list-style-type: none;
+            font-size: 20px;
+            line-height: 60px;
+        }
+        
+        .but button {
+            color: white;
+            background-color: red;
+            margin-top: 10px;
+            margin-left: 90px;
+            padding: 7px;
+        }
+        
+        .but button:hover {
+            background-color: green;
+        }
+        
+        h3 {
+            margin-top: 10%;
+            font-size: 30px;
+            margin-left: 5%;
+        }
+        
+        .list li {
+            list-style-type: square;
+            font-size: 25px;
+            line-height: 50px;
+            margin-left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><b>A</b>K <span>Inspires</span></h1>
+
+    <h3>Honest, constructive feedback is not the same as a comment <br> saying great post! Good feedback:</h3>
+    <div class="list">
+        <li> tells you exactly what is working, and what is not...</li>
+        <li>offers suggestions on how to fix any problems</li>
+        <li>encourages you to make the most of your strengths.</li>
+    </div>
+    <div class="feed">
+        <form action="Home.html">
+            <ul>
+                <h2>FeedBack</h2>
+                <li><label>Your Name</label></li>
+                <input type="text" placeholder="Your Name">
+                <li><label>Email</label></li>
+                <input type="email" placeholder="****@gmail.com">
+                <li><label for="dropdown">Where You Know us From..?</label></li>
+                <select id="dropdown" name="dropdown">
+                       <option value="option1">Found in search Engine</option>
+                       <option value="option2">Blog Article</option>
+                       <option value="option3">Advertisement</option>
+                       <option value="option3">Some One Suggested You</option>
+                       <option value="option3">Others</option>
+                   </select>
+                <li><label>Message</label></li>
+                <textarea cols="30" rows="3" placeholder="Comment your Message"></textarea>
+                <div class="but">
+                    <button>Send Message</button>
+                </div>
+
+            </ul>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>
